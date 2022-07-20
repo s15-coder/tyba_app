@@ -1,4 +1,4 @@
-#include "utils.h"
+git remote add origin https://github.com/s15-coder/tyba_app.git#include "utils.h"
 
 #include <flutter_windows.h>
 #include <io.h>

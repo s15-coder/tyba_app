@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:tyba_app/bloc/places/places_bloc.dart';
 import 'package:tyba_app/bloc/user_cubit/user_cubit.dart';
 import 'package:tyba_app/helpers/custom_alerts.dart';
 import 'package:tyba_app/models/user_hive.dart';
@@ -55,8 +56,10 @@ class ProfilePage extends StatelessWidget {
                 label: 'Cerrar sesión',
                 onTap: () async {
                   final userCubit = BlocProvider.of<UserCubit>(context);
+                  final placesBloc = BlocProvider.of<PlacesBloc>(context);
                   showLoadingAlert(context);
                   await userCubit.logOut();
+                  placesBloc.clearFeature();
                   Navigator.pop(context);
                   Navigator.pushNamedAndRemoveUntil(
                       context, LoginPage.routeName, (route) => false);
