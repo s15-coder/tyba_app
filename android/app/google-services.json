@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "221823830483",
+    "firebase_url": "https://places-app-7ee6f-default-rtdb.firebaseio.com",
+    "project_id": "places-app-7ee6f",
+    "storage_bucket": "places-app-7ee6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221823830483:android:01de461660e531471a0726",
+        "android_client_info": {
+          "package_name": "com.example.tyba_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221823830483-jeqfuo058br1p21lm5p7mimh1nmvhee2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7X3yezeGKdQQwa5JB0h9CFt7QuxznO6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221823830483-jeqfuo058br1p21lm5p7mimh1nmvhee2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
