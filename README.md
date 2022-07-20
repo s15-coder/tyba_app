@@ -1,6 +1,6 @@
 # Tyba App
 
-A mobile application when you can search the restaurants according to the city you want.
+A mobile application where you can search the restaurants according to the city you want.
 
 ## Getting Started
 
